@@ -1,0 +1,75 @@
+:root {
+    --vermelho: rgb(177, 31, 31);
+    --preto: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*base*/
+
+body {
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 5px;
+    text-align: left;
+}
+
+header .Logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: gray;
+    margin-right: 12px;
+}
+
+header nav a:hover {
+    color: white;
+}
+
+
+/* Anime Principal */
+
+.Anime-Principal {
+    font-size: 17px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url("/img/Oscuridad\ en\ UA.jpg");
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Anime-Principal .sinopse {
+    margin-bottom: 20px;
+    width: 700px;
+}
+
+.titulo {
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+.botoes {
+    border-radius: 10px;
+    background
+}
